@@ -1,0 +1,17 @@
+* {
+  background-color: #001e59;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flexbox;
+  max-width: 100%;
+}
+/* L O G O */
+h1 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+/* N A V I G A T I O N */
+.nav-container {
+  margin: 0, auto;
+  position: sticky;
+}
