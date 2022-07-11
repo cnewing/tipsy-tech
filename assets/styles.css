@@ -2,6 +2,7 @@
   background-color: #001e59;
   font-family: Arial, Helvetica, sans-serif;
   display: flexbox;
+  max-width: 100%;
 }
 /* L O G O */
 h1 {
@@ -12,7 +13,6 @@ h1 {
 /* N A V I G A T I O N */
 .nav-container {
   margin: 0, auto;
-  display: block;
   position: sticky;
 }
 
@@ -20,14 +20,15 @@ h1 {
 h2 {
   color: #fff;
   text-align: center;
-  margin: auto;
+  margin-bottom: 0px;
 }
 .wrapper-login {
   padding: 20px;
   border: #06be77;
+  margin-top: 0px;
 }
 .login {
-  margin: 0, auto;
+  margin-top: 0px;
   display: block;
   padding: 50px;
   color: #fbff33;
